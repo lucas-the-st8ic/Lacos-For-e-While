@@ -12,11 +12,10 @@ public class CalculaFatorial {
         soma = numero;
 
         for (int i = numero - 1; i > 1; i--) {
-            soma = soma * i;
-            System.out.println(soma);
+            soma *= i;
         }
 
-        System.out.println(soma);
+        System.out.println("O fatorial de " +numero+ " é: " + soma);
 
     }
 }
