@@ -7,5 +7,6 @@ public class SomaValores {
         }
 
         System.out.println("A soma total das receitas é " + soma);
+
     }
 }
