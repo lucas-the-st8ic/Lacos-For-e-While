@@ -11,7 +11,7 @@ void main(String[] args) {
             i += 1;
         }
 
-        System.out.println(i + " ");
+        System.out.print(i + " - ");
     }
 
     input.close();
